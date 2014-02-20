@@ -31,9 +31,9 @@ sudo apt-get install python-bs4 tidy
 
 If you aren't running something Debian-based then, I mean, just install Beautiful Soup and the "tidy" utility. It's not like I'm asking for specific versions of boost or something. God I hate boost.
 
-Then just run the get_listings.sh if you don't trust (or think you should update) the final.list.
+Then just run `get_listings.sh` if you don't trust (or think you should update) the final.list.
 
-Penultimately, run publish.sh (uncommenting and filling in the rsync lines if you want to push it to a webserver from the script).
+Penultimately, run `publish.sh` (uncommenting and filling in the rsync lines if you want to push it to a webserver from the script).
 
 Finally, marvel at how overly complicated it is. Is Keith really just making a point? Or is it sheer laziness? Maybe both?
 
@@ -48,3 +48,11 @@ You're lazy, why is this so sloppy and sprawling?
 -------------------------------------------------
 
 Didn't we kindof go over this already? But yeah, I mean you're right, imaginary person that probably doesn't exist because perhaps nobody will ever read this, this is more of a quick slapdash proof of concept than anything. But I mean, feel free to contribute pull requests that tidy it up! Maybe use Python's own libtidy implementation rather than the hilarious method I'm using, for example. And maybe pull the listing in a way that isn't awkward overkill.
+
+
+Is this one of those hippie open source things?
+-----------------------------------------------
+
+Yup, and I've decided to license it under copyleft-next 0.3.0. See LICENSE.markdown for the gory legal details.
+
+Speaking of legal details, I'd like to state for the record that if I got a cease-and-desist or such from the CBC that would be _the best thing ever_. Although I don't see why they would send such a thing, so that's really more of a pipe dream. Even better, but sadly perhaps even less likely, would be them _fixing the damned podcast setup_ so that they kept it clean of XML-spec breaking mistakes! And while I'm wistfully dreaming my life away, man, if they hadn't ever cancelled Brave New Waves? Wow. That's would be a perfect fucking world. The CBC is capable of great and unique things, don't doubt it. If only the people who run it (up to and including our Honorable federal government members) wouldn't work so hard against it.
