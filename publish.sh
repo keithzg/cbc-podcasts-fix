@@ -2,7 +2,7 @@
 
 # Variables, yay!
 OUTPUTDIR=/var/www/cbc
-LISTFILE=`pwd`/final.list
+LISTFILE=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/final.list
 TEMPDIR=/tmp/cbc
 # If this isn't being run on a webserver, you might want to just rsync it there afterwards.
 # In that case, uncomment the following line, and the final one.
